@@ -60,11 +60,11 @@ const Navbar = ({ handleSlideIn }) => {
             <input type="text" placeholder="Search..." />
             <img src={search} alt="search" width="18" className="search-icon" />
           </form>
-          <Link to="/language" className="nav-item nav-btn res-nav" style={{ height: "auto", width: "auto" }}>
+        </div>
+        <Link to="/language" className="nav-item nav-btn res-nav" style={{ height: "auto", width: "auto" }}>
           <HiCube />
         </Link>
-        </div>
-        <div className="navbar-2" style={{ margin: "0px 0px" }}>
+        <div className="navbar-2 A7" style={{ margin: "0px 0px" }}>
           {User?.result ? (
             <>
               <Avatar
@@ -81,12 +81,12 @@ const Navbar = ({ handleSlideIn }) => {
                   {User.result.name.charAt(0).toUpperCase()}
                 </Link>
               </Avatar>
-              <button className="nav-item nav-links" onClick={handleLogout}>
+              <button className="nav-item nav-links A8" onClick={handleLogout}>
                 {five}
               </button>
             </>
           ) : (
-            <Link to="/Auth" className="nav-item nav-links">
+            <Link to="/Auth" className="nav-item nav-links A8">
               {four}
             </Link>
           )}
