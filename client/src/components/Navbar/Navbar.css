@@ -115,11 +115,8 @@
 @media screen and (max-width: 844px) {
   .A2{
     width: 100%;
-    visibility: hidden;
   }
-  .A3{
-   margin-right: -25px;
-  }
+  
 }
 
 @media screen and (max-width: 760px) {
@@ -131,5 +128,17 @@
 @media screen and (max-width: 620px) {
   .navbar .navbar-1 .res-nav {
     display: none;
+  }
+}
+@media screen and (max-width: 620px) {
+  .nav-links{
+    padding:7px 0px;
+    margin-left: 2px;
+  }
+  .A7{
+    gap: 5px;
+  } 
+  .A8{
+    margin-right: -9px;
   }
 }
